@@ -59,7 +59,7 @@ class MyDrawer extends StatelessWidget {
                 color: Colors.white,
               ),
               title: Text(
-                "Mail",
+                "Email me",
                 textScaleFactor: 1.2,
                 style: TextStyle(
                   color: Colors.white,
