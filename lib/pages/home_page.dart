@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_declarations, avoid_unnecessary_containers
 
 import 'package:flutter/material.dart';
+import 'package:go_for_it/widgets/drawer.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -18,7 +19,7 @@ class HomePage extends StatelessWidget {
           child: Text("Welcome to $days days of flutter course by $name"),
         ),
       ),
-      drawer: const Drawer(),
+      drawer: const MyDrawer(),
     );
   }
 }
